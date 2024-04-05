@@ -1,0 +1,71 @@
+1. Palindrome Exercise:
+   Write a function isPalindrome(str) that takes a string str as a parameter and returns true if it is a palindrome (reads the same forwards and backwards), otherwise returns false.
+
+   // Example usage:
+   let result1 = isPalindrome("racecar");
+   console.log(result1); // Returns true
+
+   let result2 = isPalindrome("hello");
+   console.log(result2); // Returns false
+2. Replace Exercise:
+   Create a function replaceVowels(str) that replaces all vowels in the string str with a dash "-". Return the modified string.
+
+   // Example usage:
+   let modifiedString = replaceVowels("hello world");
+   console.log(modifiedString); // Returns "h-ll- w-rld"
+
+3. Slice Exercise:
+   Define a function getMiddle(str) that takes a string str as a parameter. This function should return the middle two characters if the length of the string is even, and the middle character if the length is odd.
+
+   // Example usage:
+   let middleCharacters = getMiddle("abcdef");
+   console.log(middleCharacters); // Returns "cd"
+
+4. CharAt Exercise:
+   Write a function getFirstNonRepeatedCharacter(str) that takes a string str as a parameter and returns the first non-repeated character in the string.
+
+   // Example usage:
+   let firstNonRepeated = getFirstNonRepeatedCharacter("hello");
+   console.log(firstNonRepeated); // Returns "h"
+
+5. IndexOf Exercise:
+   Create a function countOccurrences(str, sub) that counts the number of occurrences of substring sub in the string str.
+
+   // Example usage:
+   let occurrences = countOccurrences("hello hello world", "hello");
+   console.log(occurrences); // Returns 2
+
+6. ToUpperCase Exercise:
+   Develop a function countUpperCase(str) that counts the number of uppercase letters in the string str.
+
+   // Example usage:
+   let upperCaseCount = countUpperCase("Hello World");
+   console.log(upperCaseCount); // Returns 2
+
+7. ToLowerCase Exercise:
+   Define a function countLowerCase(str) that counts the number of lowercase letters in the string str.
+
+   // Example usage:
+   let lowerCaseCount = countLowerCase("Hello World");
+   console.log(lowerCaseCount); // Returns 8
+
+8. Trim Exercise:
+   Write a function removeDuplicates(str) that removes consecutive duplicate characters from the string str.
+
+   // Example usage:
+   let modifiedString = removeDuplicates("bookkeeper");
+   console.log(modifiedString); // Returns "bokeper"
+
+9. Split Exercise:
+   Create a function reverseWords(sentence) that reverses the order of words in a sentence. You can assume that words are separated by spaces.
+
+   // Example usage:
+   let reversedSentence = reverseWords("Hello World");
+   console.log(reversedSentence); // Returns "World Hello"
+
+10. Concat Exercise:
+    Define a function isAnagram(word1, word2) that checks whether two words word1 and word2 are anagrams of each other.
+
+    // Example usage:
+    let result = isAnagram("listen", "silent");
+    console.log(result); // Returns true

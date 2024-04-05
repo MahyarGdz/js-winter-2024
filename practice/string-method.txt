@@ -1,0 +1,80 @@
+1. Implementing substr:
+   Write a function mySubstr(str, start, length) that behaves similarly to the substr() method. It should return a substring of str starting from index start and containing length characters.
+
+   // Example usage:
+   let originalString = "Hello World";
+   let sub = mySubstr(originalString, 3, 5); // Returns "lo Wo"
+   console.log(sub);
+
+2. Implementing replace:
+   Create a function myReplace(str, search, replace) that mimics the behavior of the replace() method. It should replace all occurrences of search in str with replace.
+
+   // Example usage:
+   let originalString = "Hello World";
+   let replaced = myReplace(originalString, "World", "Universe"); // Returns "Hello Universe"
+   console.log(replaced);
+
+3. Implementing slice:
+   Define a function mySlice(str, start, end) that emulates the slice() method. It should return a portion of str starting from index start up to, but not including, index end.
+
+   // Example usage:
+   let originalString = "Hello World";
+   let sliced = mySlice(originalString, 3, 7); // Returns "lo W"
+   console.log(sliced);
+
+4. Implementing charAt:
+   Develop a function myCharAt(str, index) that replicates the functionality of the charAt() method. It should return the character at the specified index in the str.
+
+   // Example usage:
+   let originalString = "Hello World";
+   let char = myCharAt(originalString, 6); // Returns "W"
+   console.log(char);
+
+5. Implementing indexOf:
+   Create a function myIndexOf(str, searchValue, fromIndex) that behaves like the indexOf() method. It should return the index within the str of the first occurrence of the specified searchValue, starting the search at the specified fromIndex.
+
+   // Example usage:
+   let originalString = "Hello World";
+   let index = myIndexOf(originalString, "World"); // Returns 6
+   console.log(index);
+
+6. Implementing toUpperCase:
+   Write a function myToUpperCase(str) that converts all characters in str to uppercase.
+
+   // Example usage:
+   let originalString = "Hello World";
+   let upperCaseString = myToUpperCase(originalString); // Returns "HELLO WORLD"
+   console.log(upperCaseString);
+
+7. Implementing toLowerCase:
+   Define a function myToLowerCase(str) that converts all characters in str to lowercase.
+
+   // Example usage:
+   let originalString = "Hello World";
+   let lowerCaseString = myToLowerCase(originalString); // Returns "hello world"
+   console.log(lowerCaseString);
+
+8. Implementing trim:
+   Create a function myTrim(str) that removes whitespace from both ends of the str.
+
+   // Example usage:
+   let originalString = "   Hello World   ";
+   let trimmedString = myTrim(originalString); // Returns "Hello World"
+   console.log(trimmedString);
+
+9. Implementing split:
+   Develop a function mySplit(str, separator) that splits a string into an array of substrings based on the specified separator.
+
+   // Example usage:
+   let originalString = "Hello,World";
+   let splitArray = mySplit(originalString, ","); // Returns ["Hello", "World"]
+   console.log(splitArray);
+
+10. Implementing concat:
+    Write a function myConcat(str1, str2) that concatenates two strings together.
+
+    // Example usage:
+    let string1 = "Hello";
+    let string2 = "World";
+    let concatenatedString = myConcat(string1, string2); // Returns "HelloWorld"
+    console.log(concatenatedString);
