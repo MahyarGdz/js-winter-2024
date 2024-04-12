@@ -1,0 +1,89 @@
+Includes Method:
+Implement a function myIncludes(arr, element) that checks if the array arr includes the specified element. It should return true if found, otherwise false.
+
+// Example usage:
+let array = [1, 2, 3, 4, 5];
+console.log(myIncludes(array, 3)); // Returns true
+console.log(myIncludes(array, 6)); // Returns false
+================================================
+
+ToString Method:
+Create a function myToString(arr) that converts the elements of the array arr into a string.
+
+
+// Example usage:
+let array = [1, 2, 3, 4, 5];
+console.log(myToString(array)); // Returns "1,2,3,4,5"
+================================================
+
+Reverse Method:
+Define a function myReverse(arr) that reverses the elements of the array arr.
+
+
+// Example usage:
+let array = [1, 2, 3, 4, 5];
+console.log(myReverse(array)); // Returns [5, 4, 3, 2, 1]
+================================================
+
+Length Method:
+Write a function myLength(arr) that returns the number of elements in the array arr.
+
+// Example usage:
+let array = [1, 2, 3, 4, 5];
+console.log(myLength(array)); // Returns 5
+================================================
+
+Push Method:
+Develop a function myPush(arr, element) that adds a new element to the end of the array arr.
+
+// Example usage:
+let array = [1, 2, 3, 4, 5];
+myPush(array, 6);
+console.log(array); // Returns [1, 2, 3, 4, 5, 6]
+================================================
+
+Pop Method:
+Implement a function myPop(arr) that removes the last element from the array arr and returns it.
+
+// Example usage:
+let array = [1, 2, 3, 4, 5];
+console.log(myPop(array)); // Returns 5
+console.log(array); // Returns [1, 2, 3, 4]
+================================================
+
+Shift Method:
+Create a function myShift(arr) that removes the first element from the array arr and returns it.
+
+
+// Example usage:
+let array = [1, 2, 3, 4, 5];
+console.log(myShift(array)); // Returns 1
+console.log(array); // Returns [2, 3, 4, 5]
+================================================
+
+Unshift Method:
+Define a function myUnshift(arr, element) that adds a new element to the beginning of the array arr.
+
+
+// Example usage:
+let array = [1, 2, 3, 4, 5];
+myUnshift(array, 0);
+console.log(array); // Returns [0, 1, 2, 3, 4, 5]
+================================================
+
+IndexOf Method:
+Write a function myIndexOf(arr, element) that returns the first index at which a given element can be found in the array arr, or -1 if it is not present.
+
+// Example usage:
+let array = [1, 2, 3, 4, 5];
+console.log(myIndexOf(array, 3)); // Returns 2
+console.log(myIndexOf(array, 6)); // Returns -1
+================================================
+
+Join Method:
+Create a function myJoin(arr, separator) that joins all elements of the array arr into a string, separated by the specified separator.
+
+// Example usage:
+let array = [1, 2, 3, 4, 5];
+console.log(myJoin(array, "-")); // Returns "1-2-3-4-5"
+================================================

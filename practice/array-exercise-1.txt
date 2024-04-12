@@ -1,0 +1,65 @@
+Using Includes Method:
+Create a function containsElement(arr, element) that checks if the array arr contains the specified element. Return true if found, otherwise false.
+
+Using ToString Method:
+Write a function sumArray(arr) that takes an array of numbers arr and returns the sum of all elements as a string.
+
+Using Reverse Method:
+Develop a function reverseString(str) that takes a string str as input and returns a new string with the characters reversed.
+
+Using Length Method:
+Create a function isLongEnough(arr, minLength) that checks if the length of the array arr is greater than or equal to minLength. Return true if it is, otherwise false.
+
+Using Push Method:
+Write a function addNewElement(arr, element) that adds the element to the end of the array arr and returns the modified array.
+
+Using Pop Method:
+Create a function removeLastElement(arr) that removes the last element from the array arr and returns it.
+
+Using Shift Method:
+Develop a function removeFirstElement(arr) that removes the first element from the array arr and returns it.
+
+Using Unshift Method:
+Write a function addFirstElement(arr, element) that adds the element to the beginning of the array arr and returns the modified array.
+
+Using IndexOf Method:
+Create a function findElementIndex(arr, element) that returns the index of the first occurrence of element in the array arr. If the element is not found, return -1.
+
+Using Join Method:
+Write a function mergeArray(arr1, arr2) that merges two arrays arr1 and arr2 into a single array and returns it.
+
+
+
+
+
+//part2     
+
+Finding Maximum Number:
+Write a function findMax(arr) that finds and returns the maximum number in an array arr.
+
+Finding Minimum Number:
+Create a function findMin(arr) that finds and returns the minimum number in an array arr.
+
+Finding Even Numbers:
+Develop a function findEvenNumbers(arr) that returns an array containing only the even numbers from the input array arr.
+
+Finding Odd Numbers:
+Create a function findOddNumbers(arr) that returns an array containing only the odd numbers from the input array arr.
+
+Calculating Array Sum:
+Write a function calculateSum(arr) that calculates and returns the sum of all numbers in the input array arr.
+
+Calculating Array Average:
+Develop a function calculateAverage(arr) that calculates and returns the average of all numbers in the input array arr.
+
+Checking Palindrome Array:
+Create a function isPalindromeArray(arr) that checks if the array arr is a palindrome, i.e., it reads the same forwards and backwards.
+
+Checking Prime Numbers:
+Write a function findPrimeNumbers(arr) that returns an array containing only the prime numbers from the input array arr.
+
+Removing Duplicates:
+Develop a function removeDuplicates(arr) that removes duplicate elements from the input array arr and returns a new array without duplicates.
+
+Merging Arrays:
+Create a function mergeArrays(arr1, arr2) that merges two arrays arr1 and arr2 into a single array and returns it.
